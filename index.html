@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html class="stopwatch-mode" lang="en">
 <head lang="en">
-    <meta charset="gb2312">
+    <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1">
 	<meta name="mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<title>ICTDµ¹¼ÆÊ±</title>
+	<title>ICTDå€’è®¡æ—¶</title>
 
     <link type="text/css" rel="stylesheet" href="assets/materialize/css/materialize.min.css">
     <link type="text/css" rel="stylesheet" href="assets/css/styles.css">
@@ -16,9 +16,9 @@
 <div class="wrapper">
 
 	<header class="switch-clocks z-depth-1">
-		<a class="alarm waves-effect">±¨¾¯</a>
-		<a class="stopwatch waves-effect">Ãë±í</a>
-		<a class="timer waves-effect">¼ÆÊ±Æ÷</a>
+		<a class="alarm waves-effect">æŠ¥è­¦</a>
+		<a class="stopwatch waves-effect">ç§’è¡¨</a>
+		<a class="timer waves-effect">è®¡æ—¶å™¨</a>
 	</header>
 
 	<div class="app">
@@ -28,36 +28,36 @@
 
 				<div class="control input-field">
 					<input id="alarm-input" type="text" class="validate">
-					<label for="alarm-input">ÉèÖÃÊ±¼ä</label>
+					<label for="alarm-input">è®¾ç½®æ—¶é—´</label>
 				</div>
 
 				<div class="control switch">
 					<label>
-						¹Ø±Õ
+						å…³é—­
 						<input type="checkbox" disabled id="alarm-btn">
 						<span class="lever"></span>
-						¿ªÆô
+						å¼€å¯
 					</label>
 				</div>
 
 				<div class="control checkbox">
 					<input type="checkbox" id="alarm-sounds" />
-					<label for="alarm-sounds">ÉùÒô</label>
+					<label for="alarm-sounds">å£°éŸ³</label>
 				</div>
 
 			</form>
 
 			<div class="clock z-depth-1 inactive">
-				<span>È¡ÏûÉèÖÃ</span>
+				<span>å–æ¶ˆè®¾ç½®</span>
 				<div class="overlay waves-effect"></div>
 			</div>
 		</div>
 
 		<div class="container stopwatch">
 			<form>
-				<a id="stopwatch-btn-start" class="waves-effect waves-teal btn-flat">¿ªÊ¼</a>
-				<a id="stopwatch-btn-pause" class="waves-effect waves-teal btn-flat">ÔÝÍ£</a>
-				<a id="stopwatch-btn-reset" class="waves-effect waves-teal btn-flat">ÖØÖÃ</a>
+				<a id="stopwatch-btn-start" class="waves-effect waves-teal btn-flat">å¼€å§‹</a>
+				<a id="stopwatch-btn-pause" class="waves-effect waves-teal btn-flat">æš‚åœ</a>
+				<a id="stopwatch-btn-reset" class="waves-effect waves-teal btn-flat">é‡ç½®</a>
 			</form>
 
 			<div class="clock inactive z-depth-1">
@@ -76,7 +76,7 @@
 			<form>
 				<div class="control input-field">
 					<input id="timer-input" type="number">
-					<label for="timer-input">·ÖÖÓ</label>
+					<label for="timer-input">åˆ†é’Ÿ</label>
 				</div>
 
 				<a class="timer-btn start waves-effect"><i class="mdi-av-play-arrow"></i></a>
@@ -85,7 +85,7 @@
 
 				<div class="control checkbox">
 					<input type="checkbox" id="timer-sounds" />
-					<label for="timer-sounds">ÉùÒô</label>
+					<label for="timer-sounds">å£°éŸ³</label>
 				</div>
 
 			</form>
@@ -99,7 +99,7 @@
 			<h3 style="color: #fff;">Pls notice time</h3>
 		</div>
 		<div class="modal-footer">
-			<a href="#!" class="dismiss-alarm-sounds modal-action waves-effect waves-red btn-flat" style="font-size: 12px">¹Ø±ÕÄÖÖÓ</a>
+			<a href="#!" class="dismiss-alarm-sounds modal-action waves-effect waves-red btn-flat" style="font-size: 12px">å…³é—­é—¹é’Ÿ</a>
 		</div>
 	</div>
 
